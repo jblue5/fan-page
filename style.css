@@ -1,0 +1,10 @@
+body {
+   background-color: #cc6600;
+   color: #ffffff;
+}
+
+h1, h2 { color: #663300; }
+#sprints { background-color: #e67300; 
+            color: black}
+
+span#stretch { color: whitesmoke}
