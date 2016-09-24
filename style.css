@@ -1,10 +1,37 @@
+/* CSS Document */
+a { 
+    font-weight: bold;
+    text-decoration: none;
+}
+
 body {
-   background-color: #cc6600;
+   font-family: Verdana, Arial, sans-serif;
+   background-color: #43627F;  
    color: #ffffff;
 }
 
-h1, h2 { color: #663300; }
-#sprints { background-color: #e67300; 
+.wrapper {
+    background-image: url('../images/runner.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2 { 
+    font-family: Verdana, Arial, sans-serif;
+    color: #7F6C4C; 
+
+}
+h3 {
+    text-transform: uppercase;
+}
+#sprints { background-color: #63727F; 
             color: black}
 
 span#stretch { color: whitesmoke}
+
+ul { list-style-type: upper-alpha;}
+
+footer { 
+        font-style: italic;
+        font-size: 65%;
+}
